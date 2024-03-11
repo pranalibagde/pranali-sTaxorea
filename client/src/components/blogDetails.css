@@ -1,0 +1,736 @@
+.BlogDetailsSection{
+    width: 100%;
+    padding: 30px 0;
+    height: auto;
+    background: #ffffff;
+}
+.BlogDetailHead{
+    cursor: pointer;
+    padding: 50px 0 10px 40px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.BlogDetailHead span{
+    font-weight: bold;
+}
+.BlogDetailsSectionFirst{
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+}
+.BlogDetailsSectionFirst img{
+    width: 100%;
+    height: 500px;
+}
+.belowTaxApplicationRow{
+    padding: 20px 30px 0 30px;
+    margin-bottom: -20px;
+}
+.belowTaxApplicationRow p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #495057;
+}
+.blogDetailsDescription{
+    padding: 10px 30px;
+}
+.blogDetailsDescription h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #212529;
+}
+.blogDetailsDescription p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #495057;
+}
+.blogDetailsDescription h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #212529;
+}
+.BlogDetailsSectionSecond{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    background-color: #ffffff;
+}
+.BlogDetailsSecondHeadRow h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+.BlogDetailsSecondHeadRow button{
+    width: 94px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2E2E3A;
+}
+.cardsRow{
+    padding: 40px 0px;
+}
+.cardCol{
+   width: 380px;
+   height: auto;
+   padding: 10px 15px!important;
+}
+.card-img-top{
+    width: 100%;
+    height: 280px;
+    position: relative;
+}
+.creativeBtn{
+    position: absolute;
+    width: 63px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    font-size: 8px;
+    margin-left: -70px;
+    margin-top: 10px;
+    color: #F8F9FA;
+
+}
+.card-body{
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    border-top: none;
+}
+.card-title{
+    text-align: start;
+    font-size: 25px;
+    font-weight: 600;
+    color: #212529;
+}
+.card-text{
+    text-align: start;
+    font-size: 14px;
+    font-weight: 300;
+    color: #495057;
+    overflow: hidden;
+    height: 40px; 
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+.cardBelowRow p{
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(73, 80, 87, 1);
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .BlogDetailsSection{
+        padding: 20px 0;
+    }
+    .BlogDetailHead{
+        padding: 20px 0 10px 10px;
+        font-size: 12px;
+    }
+    .BlogDetailsSectionFirst img{
+        width: 100%;
+        height: 200px;
+    }
+    .belowTaxApplicationRow{
+        padding: 20px 30px 0 30px;
+        margin-bottom: -20px;
+    }
+    .belowTaxApplicationRow p{
+        font-size: 8px;
+    }
+    .blogDetailsDescription{
+        padding: 10px 30px;
+    }
+    .blogDetailsDescription h3{
+        font-size: 16px;
+    }
+    .blogDetailsDescription p{
+        font-size: 10px;
+    }
+    .blogDetailsDescription h4{
+        font-size: 14px;
+    }
+    .BlogDetailsSectionSecond{
+        padding-top: 30px;
+    }
+    .BlogDetailsSecondHeadRow h3{
+        font-size: 20px;
+    }
+    .BlogDetailsSecondHeadRow button{
+        width: 60px;
+        height: 25px;
+        font-size: 8px;
+        margin-top: -60px;
+    }
+    .cardsRow{
+        padding: 40px 0px;
+    }
+    .cardCol{
+       width: 100%;
+       height: auto;
+       padding: 15px 15px;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 180px;
+    }
+    .creativeBtn{
+        width: 63px;
+        height: 25px;
+        font-size: 6px;
+        margin-left: -70px;
+        margin-top: 10px;
+    }
+    .card-title{
+        font-size: 18px;
+    }
+    .card-text{
+        font-size: 12px;
+        font-weight: 300;
+        height: 40px; 
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+    }
+    .cardBelowRow p{
+        font-size: 10px;
+    }
+}
+@media (min-width: 375px) and (max-width: 480px){
+    .BlogDetailsSection{
+        padding: 20px 0;
+    }
+    .BlogDetailHead{
+        padding: 20px 0 10px 10px;
+        font-size: 12px;
+    }
+    .BlogDetailsSectionFirst img{
+        width: 100%;
+        height: 250px;
+    }
+    .belowTaxApplicationRow{
+        padding: 20px 30px 0 30px;
+        margin-bottom: -20px;
+    }
+    .belowTaxApplicationRow p{
+        font-size: 10px;
+    }
+    .blogDetailsDescription{
+        padding: 10px 30px;
+    }
+    .blogDetailsDescription h3{
+        font-size: 18px;
+    }
+    .blogDetailsDescription p{
+        font-size: 12px;
+    }
+    .blogDetailsDescription h4{
+        font-size: 16px;
+    }
+    .BlogDetailsSectionSecond{
+        padding-top: 30px;
+    }
+    .BlogDetailsSecondHeadRow h3{
+        font-size: 20px;
+    }
+    .BlogDetailsSecondHeadRow button{
+        width: 60px;
+        height: 25px;
+        font-size: 8px;
+        margin-top: -80px;
+    }
+    .cardsRow{
+        padding: 40px 0px;
+    }
+    .cardCol{
+       width: 100%;
+       height: auto;
+       padding: 15px 15px;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 230px;
+    }
+    .creativeBtn{
+        width: 63px;
+        height: 25px;
+        font-size: 6px;
+        margin-left: -70px;
+        margin-top: 10px;
+    }
+    .card-title{
+        font-size: 22px;
+    }
+    .card-text{
+        font-size: 14px;
+        height: 40px; 
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+    }
+    .cardBelowRow p{
+        font-size: 12px;
+    }
+}
+@media (min-width: 481px) and (max-width: 600px){
+    .BlogDetailsSection{
+        padding: 20px 0;
+    }
+    .BlogDetailHead{
+        padding: 20px 0 10px 10px;
+        font-size: 12px;
+    }
+    .BlogDetailsSectionFirst img{
+        width: 100%;
+        height: 280px;
+    }
+    .belowTaxApplicationRow{
+        padding: 20px 30px 0 30px;
+        margin-bottom: -20px;
+    }
+    .belowTaxApplicationRow p{
+        font-size: 12px;
+    }
+    .blogDetailsDescription{
+        padding: 10px 30px;
+    }
+    .blogDetailsDescription h3{
+        font-size: 20px;
+    }
+    .blogDetailsDescription p{
+        font-size: 14px;
+    }
+    .blogDetailsDescription h4{
+        font-size: 18px;
+    }
+    .BlogDetailsSectionSecond{
+        padding-top: 30px;
+    }
+    .BlogDetailsSecondHeadRow h3{
+        font-size: 22px;
+    }
+    .BlogDetailsSecondHeadRow button{
+        width: 60px;
+        height: 25px;
+        font-size: 10px;
+        margin-top: -80px;
+    }
+    .cardsRow{
+        padding: 40px 0px;
+    }
+    .cardCol{
+       width: 100%;
+       height: auto;
+       padding: 15px 15px;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 280px;
+    }
+    .creativeBtn{
+        width: 63px;
+        height: 25px;
+        font-size: 6px;
+        margin-left: -70px;
+        margin-top: 10px;
+    }
+    .card-title{
+        font-size: 26px;
+    }
+    .card-text{
+        font-size: 16px;
+        height: 45px; 
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+    }
+    .cardBelowRow p{
+        font-size: 14px;
+    }
+}
+@media (min-width: 6011px) and (max-width: 767px){
+    .BlogDetailsSection{
+        padding: 20px 0;
+    }
+    .BlogDetailHead{
+        padding: 20px 0 10px 10px;
+        font-size: 12px;
+    }
+    .BlogDetailsSectionFirst img{
+        width: 100%;
+        height: 280px;
+    }
+    .belowTaxApplicationRow{
+        padding: 20px 30px 0 30px;
+        margin-bottom: -20px;
+    }
+    .belowTaxApplicationRow p{
+        font-size: 12px;
+    }
+    .blogDetailsDescription{
+        padding: 10px 30px;
+    }
+    .blogDetailsDescription h3{
+        font-size: 20px;
+    }
+    .blogDetailsDescription p{
+        font-size: 14px;
+    }
+    .blogDetailsDescription h4{
+        font-size: 18px;
+    }
+    .BlogDetailsSectionSecond{
+        padding-top: 30px;
+    }
+    .BlogDetailsSecondHeadRow h3{
+        font-size: 22px;
+    }
+    .BlogDetailsSecondHeadRow button{
+        width: 60px;
+        height: 25px;
+        font-size: 10px;
+        margin-top: -80px;
+    }
+    .cardsRow{
+        padding: 40px 0px;
+    }
+    .cardCol{
+       width: 100%;
+       height: auto;
+       padding: 15px 15px;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 280px;
+    }
+    .creativeBtn{
+        width: 63px;
+        height: 25px;
+        font-size: 6px;
+        margin-left: -70px;
+        margin-top: 10px;
+    }
+    .card-title{
+        font-size: 26px;
+    }
+    .card-text{
+        font-size: 16px;
+        height: 45px; 
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+    }
+    .cardBelowRow p{
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) and (max-width: 900px){
+    .BlogDetailsSection{
+        padding: 30px 0;
+    }
+    .BlogDetailHead{
+        padding: 20px 0 10px 10px;
+        font-size: 12px;
+    }
+    .BlogDetailsSectionFirst{
+        width: 100%;
+        height: auto;
+    }
+    .BlogDetailsSectionFirst img{
+        width: 100%;
+        height: 300px;
+    }
+    .belowTaxApplicationRow p{
+        font-size: 10px;
+    }
+    .blogDetailsDescription h3{
+        font-size: 18px;
+    }
+    .blogDetailsDescription p{
+        font-size: 10px;
+    }
+    .blogDetailsDescription h4{
+        font-size: 14px;
+    }
+    .BlogDetailsSectionSecond{
+        width: 100%;
+        height: auto;
+        padding: 30px 10px;
+    }
+    .BlogDetailsSecondHeadRow h3{
+        font-size: 28px;
+    }
+    .BlogDetailsSecondHeadRow button{
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: -50px;
+        margin-right: 10px;
+    }
+    .cardsRow{
+        padding: 20px 0px;
+    }
+    .cardCol{
+       width: 230px;
+       height: auto;
+       padding: 0px 15px;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 180px;
+        position: relative;
+    }
+    .creativeBtn{
+        position: absolute;
+        font-size: 6px;
+        margin-left: -70px;
+        margin-top: 10px;   
+    }
+    .card-title{
+        font-size: 13px;
+    }
+    .card-text{
+        font-size: 8px;
+        height: 25px; 
+        -webkit-line-clamp: 2; 
+    }
+    .cardBelowRow p{
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1050px){
+    .BlogDetailsSection{
+        padding: 30px 0;
+    }
+    .BlogDetailHead{
+        padding: 20px 0 10px 10px;
+        font-size: 12px;
+    }
+    .BlogDetailsSectionFirst{
+        width: 100%;
+        height: auto;
+    }
+    .BlogDetailsSectionFirst img{
+        width: 100%;
+        height: 400px;
+    }
+    .belowTaxApplicationRow p{
+        font-size: 12px;
+    }
+    .blogDetailsDescription h3{
+        font-size: 20px;
+    }
+    .blogDetailsDescription p{
+        font-size: 12px;
+    }
+    .blogDetailsDescription h4{
+        font-size: 16px;
+    }
+    .BlogDetailsSectionSecond{
+        width: 100%;
+        height: auto;
+        padding: 30px 10px;
+    }
+    .BlogDetailsSecondHeadRow h3{
+        font-size: 30px;
+    }
+    .BlogDetailsSecondHeadRow button{
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+        margin-top: -50px;
+        margin-right: 10px;
+    }
+    .cardsRow{
+        padding: 20px 0px;
+    }
+    .cardCol{
+       width: 310px;
+       height: auto;
+       padding: 0px 15px;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 200px;
+        position: relative;
+    }
+    .creativeBtn{
+        position: absolute;
+        font-size: 8px;
+        margin-left: -70px;
+        margin-top: 10px;   
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .card-text{
+        font-size: 10px;
+        height: 30px; 
+        -webkit-line-clamp: 2; 
+    }
+    .cardBelowRow p{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1051px) and (max-width: 1199px){
+    .BlogDetailsSection{
+        padding: 30px 0;
+    }
+    .BlogDetailHead{
+        padding: 20px 0 10px 10px;
+        font-size: 12px;
+    }
+    .BlogDetailsSectionFirst{
+        width: 100%;
+        height: auto;
+    }
+    .BlogDetailsSectionFirst img{
+        width: 100%;
+        height: 400px;
+    }
+    .belowTaxApplicationRow p{
+        font-size: 12px;
+    }
+    .blogDetailsDescription h3{
+        font-size: 20px;
+    }
+    .blogDetailsDescription p{
+        font-size: 12px;
+    }
+    .blogDetailsDescription h4{
+        font-size: 16px;
+    }
+    .BlogDetailsSectionSecond{
+        width: 100%;
+        height: auto;
+        padding: 30px 10px;
+    }
+    .BlogDetailsSecondHeadRow h3{
+        font-size: 30px;
+    }
+    .BlogDetailsSecondHeadRow button{
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+        margin-top: -50px;
+        margin-right: 10px;
+    }
+    .cardsRow{
+        padding: 20px 0px;
+    }
+    .cardCol{
+       width: 310px;
+       height: auto;
+       padding: 0px 15px;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 200px;
+        position: relative;
+    }
+    .creativeBtn{
+        position: absolute;
+        font-size: 8px;
+        margin-left: -70px;
+        margin-top: 10px;   
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .card-text{
+        font-size: 10px;
+        height: 30px; 
+        -webkit-line-clamp: 2; 
+    }
+    .cardBelowRow p{
+        font-size: 10px;
+    }
+}
+@media (min-width: 1200px){
+    .BlogDetailsSection{
+        padding: 30px 0;
+    }
+    .BlogDetailHead{
+        padding: 50px 0 10px 40px;
+        font-size: 12px;
+    }
+    .BlogDetailsSectionFirst img{
+        width: 100%;
+        height: 500px;
+    }
+    .belowTaxApplicationRow{
+        padding: 20px 30px 0 30px;
+        margin-bottom: -20px;
+    }
+    .belowTaxApplicationRow p{
+        font-size: 16px;
+    }
+    .blogDetailsDescription{
+        padding: 10px 30px;
+    }
+    .blogDetailsDescription h3{
+        font-size: 25px;
+    }
+    .blogDetailsDescription p{
+        font-size: 16px;
+    }
+    .blogDetailsDescription h4{
+        font-size: 18px;
+    }
+    .BlogDetailsSectionSecond{
+        padding-top: 50px;
+    }
+    .BlogDetailsSecondHeadRow h3{
+        font-size: 40px;
+    }
+    .BlogDetailsSecondHeadRow button{
+        width: 94px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .cardsRow{
+        padding: 40px 0px;
+    }
+    .cardCol{
+       width: 380px;
+       height: auto;
+       padding: 0px 15px;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 280px;
+        position: relative;
+    }
+    .creativeBtn{
+        position: absolute;
+        width: 63px;
+        height: 25px;
+        font-size: 8px;
+        margin-left: -70px;
+        margin-top: 10px;
+    
+    }
+    .card-title{
+        font-size: 25px;
+    }
+    .card-text{
+        text-align: start;
+        font-size: 14px;
+        font-weight: 300;
+        color: #495057;
+        overflow: hidden;
+        height: 40px; 
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+    }
+    .cardBelowRow p{
+        font-size: 12px;
+    }
+}

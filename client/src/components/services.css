@@ -1,0 +1,679 @@
+.serviceSection{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+}
+.serviceFirst{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(0deg, #F1F1EC -65.9%, #AAC3C7 100%);
+    padding-top: 100px;
+}
+.serviceFirstLeftCol{
+    text-align: start;
+    padding-left: 150px;
+}
+.gstheading{
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+}
+.gstheadingh4{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+.gstheadingh4Span{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+}
+.serviceFirstRightCol{
+    align-items: center;
+    padding-left: 150px;
+}
+.serviceFirstRightCol img{
+    width: 365px;
+    height: 220px;
+}
+.serviceSecond{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+}
+.serviceSecondContainer{
+    padding:  100px 50px;
+}
+.serviceSecondRow{
+    background: (0, 0, 0, 0.14);
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.serviceSecondRowImgColLeft{
+    border-right:  1px solid rgba(0, 0, 0, 0.12);;
+}
+.serviceImgColRow{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 10px;
+}
+.serviceImgColRow.active{
+    background: #FA6917;
+    color: #ffffff;
+}
+.serviceImgColRow img{
+    width: 34px;
+    height: 35px;
+    margin-top: 5px;
+}
+.serviceImgColRow.active img {
+    filter: brightness(0) invert(1); 
+  }
+.serviceImgColRow h6{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(53, 53, 63, 1);
+    padding-top: 10px;
+    cursor: pointer;
+}
+.serviceImgColRow.active h6 {
+    color: white;
+  }
+.serviceSecondRowImgColRight{
+    padding: 20px;
+}
+.serviceSecondRowImgColRight h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+}
+.col9FirstPara{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9A9AAF;
+    padding-top: 10px;
+    text-align: right;
+}
+.col9FirstPara span{
+    text-decoration: line-through;
+}
+.col9SecondPara{
+    margin-top: 10px;
+    width: 70px;
+    height: 28px;
+    text-align: center;
+    background: #001B62;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.quesAndAns{
+    padding-top: 15px;
+}
+.Questions{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+.Answers{
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 374px){   
+    .serviceFirst{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .serviceFirstLeftCol{
+        padding-left: 30px;
+    }
+    .gstheading{
+        font-size: 38px;
+    }
+    .gstheadingh4{
+        font-size: 12px;
+    }
+    .serviceFirstRightCol{
+        align-items: center;
+        padding-top: 100px;
+        margin-left: -80%;
+    }
+    .serviceFirstRightCol img{
+        width: 230px;
+        height: 100px;
+    }
+    .serviceSecondContainer{
+        padding:  50px 0px 50px 20px;
+    }
+    .serviceImgColRow{
+        padding: 0px;
+    }
+    .serviceImgColRow img{
+        width: 20px;
+        height: 20px;
+        margin: 5px 0px;
+    }
+    .serviceImgColRow h6{
+        font-size: 6px;
+        padding: 0px 3px;
+    }
+    .serviceSecondRowImgColRight{
+        padding: 10px 10px 0px 10px;
+    }
+    .serviceSecondRowImgColRight h2{
+        font-size: 12px;
+    }
+    .col9FirstPara{
+        width: 25px;
+        margin-left: -25px;
+        font-size: 8px;
+        padding-top: 5px;
+    }
+    .col9SecondPara{
+        margin-top: 5px;
+        margin-left: -15px;
+        width: 27px;
+        height: 15px;
+        font-size: 6px;
+        padding: 3px;
+    }
+    .quesAndAns{
+        padding-top: 0px;
+    }
+    .Questions{
+        font-size: 10px;
+    }
+    .Answers{
+        font-size: 8px;
+        padding-bottom: 10px;
+    }
+}
+@media (min-width: 375px) and (max-width: 480px){   
+    .serviceFirst{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .serviceFirstLeftCol{
+        padding-left: 30px;
+    }
+    .gstheading{
+        font-size: 38px;
+    }
+    .gstheadingh4{
+        font-size: 12px;
+    }
+    .serviceFirstRightCol{
+        align-items: center;
+        padding-top: 100px;
+        margin-left: -80%;
+    }
+    .serviceFirstRightCol img{
+        width: 230px;
+        height: 100px;
+    }
+    .serviceSecondContainer{
+        padding:  50px 0px 50px 20px;
+    }
+    .serviceImgColRow{
+        padding: 0px;
+    }
+    .serviceImgColRow img{
+        width: 20px;
+        height: 20px;
+        margin: 10px 0px;
+    }
+    .serviceImgColRow h6{
+        font-size: 6px;
+        padding: 15px 3px 0px 3px;
+    }
+    .serviceSecondRowImgColRight{
+        padding: 10px 10px 0px 10px;
+    }
+    .serviceSecondRowImgColRight h2{
+        font-size: 14px;
+    }
+    .col9FirstPara{
+        width: 28px;
+        margin-left: -25px;
+        font-size: 9px;
+        padding-top: 5px;
+    }
+    .col9SecondPara{
+        margin-top: 5px;
+        margin-left: -15px;
+        width: 30px;
+        height: 17px;
+        font-size: 7px;
+        padding-top: 4px;
+    }
+    .quesAndAns{
+        padding-top: 0px;
+    }
+    .Questions{
+        font-size: 11px;
+    }
+    .Answers{
+        font-size: 9px;
+        padding-bottom: 10px;
+    }
+}
+@media (min-width: 481px) and (max-width: 600px){   
+    .serviceFirst{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .serviceFirstLeftCol{
+        padding-left: 30px;
+    }
+    .gstheading{
+        font-size: 38px;
+    }
+    .gstheadingh4{
+        font-size: 12px;
+    }
+    .serviceFirstRightCol{
+        align-items: center;
+        padding-top: 0px;
+        margin-left: -30%;
+    }
+    .serviceFirstRightCol img{
+        width: 230px;
+        height: 100px;
+    }
+    .serviceSecondContainer{
+        padding:  50px 0px 50px 20px;
+    }
+    .serviceImgColRow{
+        padding: 0px;
+    }
+    .serviceImgColRow img{
+        width: 22px;
+        height: 23px;
+        margin: 10px 0px;
+    }
+    .serviceImgColRow h6{
+        font-size: 8px;
+        padding: 15px 0px 0px 3px;
+    }
+    .serviceSecondRowImgColRight{
+        padding: 10px 10px 0px 10px;
+    }
+    .serviceSecondRowImgColRight h2{
+        font-size: 16px;
+    }
+    .col9FirstPara{
+        width: 33px;
+        margin-left: -30px;
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    .col9SecondPara{
+        margin-top: 5px;
+        margin-left: -15px;
+        width: 30px;
+        height: 17px;
+        font-size: 8px;
+        padding-top: 4px;
+    }
+    .quesAndAns{
+        padding-top: 0px;
+    }
+    .Questions{
+        font-size: 12px;
+    }
+    .Answers{
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media (min-width: 601px) and (max-width: 767px){
+    .serviceFirst{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+    .serviceFirstLeftCol{
+        padding-left: 40px;
+    }
+    .gstheading{
+        font-size: 34px;
+    }
+    .gstheadingh4{
+        font-size: 10px;
+    }
+    .serviceFirstRightCol{
+        align-items: center;
+        padding-left: 90px;
+    }
+    .serviceFirstRightCol img{
+        width: 240px;
+        height: 100px;
+    }
+    .serviceSecondContainer{
+        padding:  50px 0px 50px 20px;
+    }
+    .serviceImgColRow{
+        padding: 10px;
+    }
+    .serviceImgColRow img{
+        width: 22px;
+        height: 23px;
+        margin-top: 5px;
+    }
+    .serviceImgColRow h6{
+        font-size: 8px;
+        padding-top: 10px;
+    }
+    .serviceSecondRowImgColRight{
+        padding: 20px 20px;
+    }
+    .serviceSecondRowImgColRight h2{
+        font-size: 23px;
+    }
+    .col9FirstPara{
+        width: 30px;
+        font-size: 10px;
+        padding-top: 13px;
+        margin-left: -10px;
+    }
+    .col9SecondPara{
+        margin-top: 10px;
+        margin-left: -10px;
+        width: 40px;
+        height: 22px;
+        font-size: 10px;
+        padding: 2px;
+    }
+    .quesAndAns{
+        padding-top: 5px;
+    }
+    .Questions{
+        font-size: 14px;
+    }
+    .Answers{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 900px){
+    .serviceFirst{
+        width: 100%;
+        height: auto;
+        padding: 40px;
+    }
+    .serviceFirstLeftCol{
+        padding-left: 40px;
+    }
+    .gstheading{
+        font-size: 36px;
+    }
+    .gstheadingh4{
+        font-size: 10px;
+    }
+    .serviceFirstRightCol{
+        align-items: center;
+        padding-left: 90px;
+    }
+    .serviceFirstRightCol img{
+        width: 260px;
+        height: 120px;
+    }
+    .serviceSecondContainer{
+        padding:  50px 0px 50px 20px;
+    }
+    .serviceImgColRow{
+        padding: 10px;
+    }
+    .serviceImgColRow img{
+        width: 23px;
+        height: 25px;
+        margin-top: 5px;
+    }
+    .serviceImgColRow h6{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .serviceSecondRowImgColRight{
+        padding: 20px 20px;
+    }
+    .serviceSecondRowImgColRight h2{
+        font-size: 25px;
+    }
+    .col9FirstPara{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .col9SecondPara{
+        margin-top: 10px;
+        margin-left: -10px;
+        width: 50px;
+        height: 22px;
+        font-size: 12px;
+        padding: 2px;
+    }
+    .quesAndAns{
+        padding-top: 5px;
+    }
+    .Questions{
+        font-size: 16px;
+        font-weight: 600;
+        color: #000000;
+    }
+    .Answers{
+        font-size: 14px;
+        font-weight: 400;
+        color: #666666;
+        padding-bottom: 10px;
+    }
+}
+@media (min-width: 901px) and (max-width: 1050px){
+    .serviceFirst{
+        width: 100%;
+        height: auto;
+        padding: 40px;
+    }
+    .serviceFirstLeftCol{
+        padding-left: 40px;
+    }
+    .gstheading{
+        font-size: 38px;
+    }
+    .gstheadingh4{
+        font-size: 12px;
+    }
+    .serviceFirstRightCol{
+        align-items: center;
+        padding-left: 90px;
+    }
+    .serviceFirstRightCol img{
+        width: 280px;
+        height: 140px;
+    }
+    .serviceSecondContainer{
+        padding:  50px 0px 50px 20px;
+    }
+    .serviceImgColRow{
+        padding: 10px;
+    }
+    .serviceImgColRow img{
+        width: 25px;
+        height: 27px;
+        margin-top: 3px;
+    }
+    .serviceImgColRow h6{
+        font-size: 11px;
+        padding-top: 10px;
+    }
+    .serviceSecondRowImgColRight{
+        padding: 20px 20px;
+    }
+    .serviceSecondRowImgColRight h2{
+        font-size: 27px;
+    }
+    .col9FirstPara{
+        width: 45px;
+        font-size: 14px;
+        margin-left: -50px;
+        padding-top: 10px;
+    }
+    .col9SecondPara{
+        margin-top: 10px;
+        margin-left: -10px;
+        width: 55px;
+        height: 25px;
+        font-size: 14px;
+        padding: 2px;
+    }
+    .quesAndAns{
+        padding-top: 5px;
+    }
+    .Questions{
+        font-size: 18px;
+    }
+    .Answers{
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+}
+@media (min-width: 1051px) and (max-width: 1199px){
+    .serviceFirst{
+        width: 100%;
+        height: auto;
+        padding: 40px;
+    }
+    .serviceFirstLeftCol{
+        padding-left: 40px;
+    }
+    .gstheading{
+        font-size: 40px;
+    }
+    .gstheadingh4{
+        font-size: 14px;
+    }
+    .serviceFirstRightCol{
+        align-items: center;
+        padding-left: 100px;
+    }
+    .serviceFirstRightCol img{
+        width: 300px;
+        height: 160px;
+    }
+    .serviceSecondContainer{
+        padding:  50px 0px 50px 20px;
+    }
+    .serviceImgColRow{
+        padding: 10px;
+    }
+    .serviceImgColRow img{
+        width: 28px;
+        height: 30px;
+        margin-top: 3px;
+    }
+    .serviceImgColRow h6{
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .serviceSecondRowImgColRight{
+        padding: 20px 20px;
+    }
+    .serviceSecondRowImgColRight h2{
+        font-size: 29px;
+    }
+    .col9FirstPara{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .col9SecondPara{
+        margin-top: 10px;
+        margin-left: -10px;
+        width: 60px;
+        height: 27px;
+        font-size: 16px;
+        padding: 2px;
+    }
+    .quesAndAns{
+        padding-top: 5px;
+    }
+    .Questions{
+        font-size: 20px;
+    }
+    .Answers{
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+}
+@media (min-width: 1200px){
+    .serviceFirst{
+        width: 100%;
+        height: 400px;
+        padding-top: 100px;
+    }
+    .serviceFirstLeftCol{
+        padding-left: 150px;
+    }
+    .gstheading{
+        font-size: 48px;
+    }
+    .gstheadingh4{
+        font-size: 14px;
+    }
+    .serviceFirstRightCol{
+        align-items: center;
+        padding-left: 150px;
+    }
+    .serviceFirstRightCol img{
+        width: 365px;
+        height: 220px;
+    }
+    .serviceSecondContainer{
+        padding:  100px 50px;
+    }
+    .serviceImgColRow img{
+        width: 34px;
+        height: 35px;
+        margin-top: 5px;
+    }
+    .serviceImgColRow h6{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .serviceSecondRowImgColRight{
+        padding: 20px;
+    }
+    .serviceSecondRowImgColRight h2{
+        font-size: 32px;
+    }
+    .col9FirstPara{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .col9SecondPara{
+        margin-top: 10px;
+        width: 70px;
+        height: 28px;
+        font-size: 16px;
+    }
+    .quesAndAns{
+        padding-top: 15px;
+    }
+    .Questions{
+        font-size: 16px;
+    }
+    .Answers{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+}

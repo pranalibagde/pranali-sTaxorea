@@ -1,0 +1,516 @@
+.NavUpperSection{
+    background-color: #ffffff;
+}
+.NavUpperSection-container{
+    width: 100%;
+    height: auto;
+}
+.NavUpperSectionRightt{
+    justify-content: flex-end;
+    text-align: right;
+    padding: 10px 10px 0px 0!important;
+    cursor: pointer;
+    display: flex;
+}
+.call svg{
+    width: 15px;
+    height: 15px;
+    color: #001B62;
+    text-align: left;
+    margin-left: -30px;
+}
+.call img{
+    width: 15px;
+    height: 15px;
+    color: #001B62;
+    text-align: left;
+    margin-left: -30px;
+}
+.callNumber{
+    font-size: 14px!important;
+    color: #07070C;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    padding-top: 0px;
+    margin-top: -20px;
+}
+.callNumber a{
+    text-decoration: none;
+    color: #07070C;
+}
+.callNumber:hover{
+    color: #FA6917;
+    text-decoration: underline;
+}
+.MainDivofnavbar{
+    background: linear-gradient(180deg, #EFF0EA 0%, #F2F2ED 100%);
+    display: flex;
+    cursor: pointer;
+}
+.Mainsectionofnavbar{
+    width: 100%;
+    background: linear-gradient(180deg, #EFF0EA 0%, #F2F2ED 100%);
+}
+.logo{
+    width: 160px;
+    height: 40px!important;
+}
+.logo-mailkaro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+.MainDivoflist{
+    display: flex !important;
+    gap: 10px !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    color: #000000 !important;
+    padding-left: 150px !important;
+}
+.ListOfnavbar{
+    color: #000000;
+    font-size: 16px;
+}
+.ListOfnavbar:hover{
+    color: #000000;
+    text-decoration: underline 2px solid rgba(255, 135, 67, 1) ;
+}
+.nav-btn-row{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 100px;
+    gap: 12px;
+}
+.enquiry-btn{
+    width: 133px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    background-color: rgba(255, 135, 67, 1) !important;
+    color: #fff !important;
+    border: 1px solid #9A9AAF !important;
+}
+.enquiry-btn:hover{
+    background: linear-gradient(180deg, #EFF0EA 0%, #F2F2ED 100%);
+    color: #000!important;
+}
+.login-btn{
+   width: 82px;
+   height: 44px;
+   font-size: 16px;
+   font-weight: 500;
+   border-radius: 6px;
+   background-color: rgba(255, 135, 67, 1) !important;
+   color: #fff !important;
+   border: 1px solid #9A9AAF !important;
+}
+.login-btn:hover{
+    background: linear-gradient(180deg, #EFF0EA 0%, #F2F2ED 100%);
+    color: #000!important;
+ }
+
+
+ 
+  
+
+@media (min-width:320px) and (max-width:375px){
+    .MainDivoflist{
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: -300px !important;
+        margin-top: 50px;
+    }
+    .logo-mailkaro{
+        margin-left: 10px;
+    }
+.logo{
+    width: 100px;
+    height: 40px;
+}
+
+.MainDivoflist{
+    padding-top: 0px !important;
+    padding-left: 0px;
+    gap: 0px;
+}
+.ListOfnavbar{
+    font-size: 12px;
+}
+.enquiry-btn{
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+.login-btn{
+    width: 52px;
+    height: 30px;
+    font-size: 12px;
+ }
+}
+
+@media (min-width:375px) and (max-width: 480px){
+    .MainDivoflist{
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: -300px !important;
+        margin-top: 50px;
+    }
+    .logo-mailkaro{
+        margin-left: 10px;
+    }
+
+.logo{
+    width: 100px;
+    height: 40px;
+}
+
+.MainDivoflist{
+    padding-top: 0px !important;
+    padding-left: 0px;
+    gap: 0px;
+}
+.ListOfnavbar{
+    font-size: 14px;
+}
+.enquiry-btn{
+    width: 110px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+.login-btn{
+    width: 56px;
+    height: 30px;
+    font-size: 12px;
+ }
+}
+@media (min-width:481px) and (max-width: 600px){
+    .MainDivoflist{
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: -300px !important;
+        margin-top: 50px;
+    }
+    .logo-mailkaro{
+        margin-left: 0px;
+    }
+    .logo-mailkaro{
+        padding-left: 40px;
+    }
+.logo{
+    width: 120px;
+    height: 44px;
+}
+
+.MainDivoflist{
+    padding-top: 0px !important;
+    padding-left: 0px;
+    gap: 0px;
+}
+.ListOfnavbar{
+    font-size: 16px;
+}
+.enquiry-btn{
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+.login-btn{
+    width: 60px;
+    height: 35px;
+    font-size: 14px;
+ }
+}
+@media (min-width:601px) and (max-width: 767px){
+    .MainDivoflist{
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: -300px !important;
+        margin-top: 50px;
+    }
+    .logo-mailkaro{
+        margin-left: 0px;
+    }
+    .logo-mailkaro{
+        padding-left: 40px;
+    }
+.logo{
+    width: 120px;
+    height: 44px;
+}
+
+.MainDivoflist{
+    padding-top: 0px !important;
+    padding-left: 0px;
+    gap: 0px;
+}
+.ListOfnavbar{
+    font-size: 16px;
+}
+.enquiry-btn{
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+.login-btn{
+    width: 60px;
+    height: 35px;
+    font-size: 14px;
+ }
+}
+@media (min-width:768px) and (max-width: 900px){
+    .MainDivoflist{
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: -600px !important;
+        margin-top: 20px;
+    }
+    .logo-mailkaro{
+        margin-left: 0px;
+    }
+    .logo-mailkaro{
+        padding-left: 40px;
+    }
+.logo{
+    width: 150px;
+    height: 60px;
+}
+
+.MainDivoflist{
+    padding-top: 0px !important;
+    padding-left: 0px;
+    gap: 0px;
+}
+.ListOfnavbar{
+    font-size: 16px;
+}
+.enquiry-btn{
+    width: 130px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+.login-btn{
+    width: 60px;
+    height: 35px;
+    font-size: 14px;
+ }
+ .NavUpperSectionRightt{
+    text-align: right;
+    padding: 5px 0px 0px 0!important;
+    display: flex;
+}
+.callNumber{
+    font-size: 12px!important;
+    text-align: left;
+    padding: 5px 0 0 10px;
+    margin-top: 2%;
+    margin-right: -10%;
+}
+}
+@media (min-width:901px) and (max-width: 990px){
+    .logo{
+        width: 160px;
+        height: 60px;
+    }
+    .logo-mailkaro{
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        margin-left: -30px;
+    }
+    .MainDivoflist{
+        display: flex !important;
+        gap: 5px !important;
+        margin-left: -700px;
+    }
+    .ListOfnavbar{
+        font-size: 16px;
+    }
+    .nav-btn-row{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 00px;
+        gap: 12px;
+    }
+    .enquiry-btn{
+        width: 133px;
+        height: 44px;
+        font-size: 16px;
+    }
+    .login-btn{
+       width: 82px;
+       height: 44px;
+       font-size: 16px;
+    }
+    .NavUpperSectionRightt{
+        justify-content: flex-start;
+        text-align: left;
+        padding: 30px 0px 20px 20;
+    }   
+    .call img{
+        width: 12px;
+        height: 12px;
+        padding-right: 5px;
+    }
+    .callNumber{
+        font-size: 10px;
+        text-align: left;
+        margin-left: 12px;
+        margin-top: -16px;
+    }  
+}
+@media (min-width: 991px) and (max-width: 1100px){
+.logo{
+    width: 110px;
+    height: 40px;
+}
+.logo-mailkaro{
+    padding-left: 0px;
+}
+.MainDivoflist{
+    padding-left: 100px !important;
+}
+.ListOfnavbar{
+    font-size: 12px;
+}
+.nav-btn-row{
+    padding-left: 70px;
+    gap: 12px;
+}
+.enquiry-btn{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+}
+.login-btn{
+   width: 70px;
+   height: 40px;
+   font-size: 14px;
+}
+.NavUpperSectionRightt{
+    justify-content: flex-end;
+    text-align: left;
+    padding: 30px 30px 20px 0;
+}   
+.call img{
+    width: 16px;
+    height: 16px;
+}
+.callNumber{
+    font-size: 14px;
+    text-align: left;
+}  
+}
+@media (min-width: 1101px) and (max-width: 1199px){
+    .logo{
+        width: 110px;
+        height: 40px;
+    }
+    .logo-mailkaro{
+        padding-left: 30px;
+    }
+    .MainDivoflist{
+        padding-left: 100px !important;
+    }
+    .ListOfnavbar{
+        font-size: 14px;
+    }
+    .nav-btn-row{
+        padding-left: 70px;
+        gap: 12px;
+    }
+    .enquiry-btn{
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .login-btn{
+       width: 70px;
+       height: 40px;
+       font-size: 14px;
+    }
+    .NavUpperSectionRightt{
+        justify-content: flex-end;
+        text-align: left;
+        padding: 30px 30px 20px 0;
+    }   
+    .call img{
+        width: 16px;
+        height: 16px;
+    }
+    .callNumber{
+        font-size: 14px;
+        text-align: left;
+    }  
+}
+@media (min-width: 1200px) {
+    .logo{
+        width: 150px;
+        height: 60px;
+    }
+    .logo-mailkaro{
+        padding-left: 40px;
+    }
+        .MainDivoflist{
+            padding-left: 100px !important;
+        }
+        .ListOfnavbar{
+            font-size: 16px;
+        }
+        .nav-btn-row{
+            padding-left: 70px;
+            gap: 12px;
+        }
+        .enquiry-btn{
+            width: 133px;
+            height: 44px;
+            font-size: 16px;
+        }
+        .login-btn{
+           width: 82px;
+           height: 44px;
+           font-size: 16px;
+        }
+        .NavUpperSectionRightt{
+            justify-content: flex-end;
+            text-align: left;
+            padding: 30px 80px 20px 0;
+        }   
+        .call img{
+            width: 18px;
+            height: 18px;
+        }
+        .callNumber{
+            font-size: 14px;
+            text-align: left;
+        }     
+}
+
+
+/* media query for upperNan */
+@media (min-width: 320px) and (max-width: 410px){
+    .NavUpperSectionRightt{
+        justify-content: flex-end;
+        text-align: right;
+        padding: 20px 30px 20px 0;
+        cursor: pointer;
+        display: flex;
+    }
+    .call img{
+        width: 14px;
+        height: 14px;
+    }
+    .callNumber{
+        font-size: 12px;
+        text-align: left;
+    }
+}

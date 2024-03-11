@@ -1,0 +1,740 @@
+.contactSection{
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+}
+.contactSectionFirst{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(0deg, #F1F1EC -65.9%, #AAC3C7 100%);
+}
+.contactSectionFirstLeft{
+    padding: 100px;
+}
+.contactSectionFirstLeft h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+.contactSectionFirstLeft h4{
+    font-size: 26px;
+    font-weight: 500;
+    color: rgba(67, 66, 66, 1);
+}
+.contactSectionFirstRight{
+    padding: 100px 40px 30px 40px;
+}
+.contactSectionFirstRight img{
+    width: 400px;
+    height: 265px;
+}
+.contactSectionSecond{
+    padding: 40px 30px;
+}
+.contactSectionSecond h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(33, 37, 41, 1);
+    padding-bottom: 30px;
+}
+.ContactDetailsRow{
+    padding-top: 20px;
+}
+.Icon{
+    width: 40px;
+    height: 40px;
+    background: rgba(250, 105, 23, 1);
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.Icon svg {
+    color: #FFFFFF; 
+    font-size: 40px!important;
+    width: 40px ;
+    height: 40px ;
+  }
+  .ContactDetailsRow h6{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(53, 53, 63, 1);
+  }
+  .ContactDetailsRow p{
+    font-size: 16px;
+    font-weight: 040;
+    color: rgba(53, 53, 63, 1);
+    padding-right: 60px;
+  }
+  .formField{
+    padding-top: 20px;
+  }
+  .formLabel{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(7, 7, 12, 1);
+    padding-bottom: 5px;
+  }
+  .formControl{
+    width: 100%;
+    height: 45px;
+  }
+  .formControlField{
+    width: 100%;
+  }
+.buttonDiv button{
+  margin-top: 20px;
+  margin-left: 80%;
+  width: 94px;
+  height: 40px;
+  background: rgba(250, 105, 23, 1);
+  border-radius: 6px;
+  border: none;
+  padding: 0px, 20px, 0px, 20px;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.buttonDiv button:hover{
+  font-weight: 700;
+}
+.mapContainer{
+  padding: 0 50px;
+}
+.mapContainer h4{
+  font-size: 25px;
+  font-weight: 600;
+  color: #212529;
+  padding-bottom: 10px;
+}
+.mapDiv{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 450px;
+  margin-bottom: 20px;
+}
+.mapDiv iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 8px; 
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+  .contactSectionFirst{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contactSectionFirstLeft{
+  padding: 50px;
+}
+.contactSectionFirstLeft h1{
+  width: 200px;
+  font-size: 30px;
+}
+.contactSectionFirstLeft h4{
+  width: 200px;
+  font-size: 16px;
+}
+.contactSectionFirstRight{
+  padding: 150px 40px 30px 40px;
+}
+.contactSectionFirstRight img{
+  width: 260px;
+  height: 165px;
+}
+.contactSectionSecond{
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contactSectionSecond h2{
+  font-size: 18px;
+  width: 200px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.ContactDetailsRow{
+  padding-top: 0px;
+}
+.Icon{
+  width: 35px;
+  height: 35px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.ContactDetailsRow h6{
+  font-size: 12px;
+  margin-left: 0%;
+  margin-top: 0%;
+}
+.ContactDetailsRow p{
+  font-size: 10px;
+  width: 250px;
+  display: inline-block;
+}
+.formField{
+  padding-top: 20px;
+}
+.formLabel{
+  font-size: 10px;
+}
+.formControl{
+  width: 220%;
+  height: 30px;
+}
+.formControlField{
+  width: 220%;
+}
+.buttonDiv button{
+  margin-top: 20px;
+  margin-left: 110%;
+  width: 94px;
+  height: 30px;
+  font-size: 13px;
+}
+.mapContainer{
+  padding: 0 50px;
+}
+.mapContainer h4{
+  font-size: 18px;
+}
+.mapDiv{
+  width: 100%;
+  height: 180px;
+}
+}
+
+@media (min-width: 375px) and (max-width: 480px){
+  .contactSectionFirst{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contactSectionFirstLeft{
+  padding: 50px;
+}
+.contactSectionFirstLeft h1{
+  width: 200px;
+  font-size: 32px;
+}
+.contactSectionFirstLeft h4{
+  width: 200px;
+  font-size: 18px;
+}
+.contactSectionFirstRight{
+  padding: 150px 70px 30px 0px;
+}
+.contactSectionFirstRight img{
+  width: 260px;
+  height: 165px;
+}
+.contactSectionSecond{
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contactSectionSecond h2{
+  font-size: 20px;
+  width: 200px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.ContactDetailsRow{
+  padding-top: 0px;
+}
+.Icon{
+  width: 35px;
+  height: 35px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.ContactDetailsRow h6{
+  font-size: 14px;
+  margin-left: 0%;
+  margin-top: 0%;
+}
+.ContactDetailsRow p{
+  font-size: 12px;
+  width: 300px;
+  display: inline-block;
+}
+.formField{
+  padding-top: 20px;
+}
+.formLabel{
+  font-size: 10px;
+}
+.formControl{
+  width: 220%;
+  height: 30px;
+}
+.formControlField{
+  width: 220%;
+}
+.buttonDiv button{
+  margin-top: 20px;
+  margin-left: 135%;
+  width: 94px;
+  height: 30px;
+  font-size: 14px;
+}
+.mapContainer{
+  padding: 0 50px;
+}
+.mapContainer h4{
+  font-size: 18px;
+}
+.mapDiv{
+  width: 100%;
+  height: 180px;
+}
+}
+@media (min-width: 481px) and (max-width: 600px){
+  .contactSectionFirst{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contactSectionFirstLeft{
+  padding: 50px;
+}
+.contactSectionFirstLeft h1{
+  width: 250px;
+  font-size: 36px;
+}
+.contactSectionFirstLeft h4{
+  width: 250px;
+  font-size: 22px;
+}
+.contactSectionFirstRight{
+  padding: 150px 200px 30px 0px;
+}
+.contactSectionFirstRight img{
+  width: 280px;
+  height: 185px;
+}
+.contactSectionSecond{
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contactSectionSecond h2{
+  font-size: 22px;
+  width: 200px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.ContactDetailsRow{
+  padding-top: 0px;
+}
+.Icon{
+  width: 38px;
+  height: 38px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.ContactDetailsRow h6{
+  font-size: 16px;
+  margin-top: 0%;
+  padding-left: 20px;
+}
+.ContactDetailsRow p{
+  font-size: 14px;
+  width: 400px;
+  display: inline-block;
+  padding-left: 20px;
+}
+.formField{
+  padding-top: 20px;
+}
+.formLabel{
+  font-size: 14px;
+}
+.formControl{
+  width: 220%;
+  height: 40px;
+}
+.formControlField{
+  width: 220%;
+}
+.buttonDiv button{
+  margin-top: 20px;
+  margin-left: 155%;
+  width: 94px;
+  height: 30px;
+  font-size: 16px;
+}
+.mapContainer{
+  padding: 0 50px;
+}
+.mapContainer h4{
+  font-size: 22px;
+}
+.mapDiv{
+  width: 100%;
+  height: 250px;
+}
+}
+
+@media (min-width: 601px) and (max-width: 767px){
+  .contactSectionFirst{
+    height: 250px;
+}
+.contactSectionFirstLeft{
+    padding: 40px;
+}
+.contactSectionFirstLeft h1{
+    font-size: 30px;
+}
+.contactSectionFirstLeft h4{
+    font-size: 14px;
+}
+.contactSectionFirstRight{
+    padding: 50px 40px 20px 40px;
+}
+.contactSectionFirstRight img{
+    width: 300px;
+    height: 165px;
+}
+.contactSectionSecond{
+  padding: 20px 0px;
+}
+.contactSectionSecond h2{
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.ContactDetailsRow{
+  padding-top: 20px;
+}
+.Icon{
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+}
+.ContactDetailsRow h6{
+  font-size: 13px;
+}
+.ContactDetailsRow p{
+  font-size: 12px;
+  padding-right: 20px;
+}
+.formField{
+  padding-top: 20px;
+}
+.formLabel{
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+.formControl{
+  width: 100%;
+  height: 38px;
+}
+.formControlField{
+  width: 100%;
+}
+.buttonDiv button{
+width: 80px;
+height: 35px;
+margin-left: 65%;
+}
+.mapContainer h4{
+  font-size: 16px;
+}
+.mapDiv{
+  height: 280px;
+}
+}
+@media (min-width: 768px) and (max-width: 900px){
+  .contactSectionFirst{
+    height: 280px;
+}
+.contactSectionFirstLeft{
+    padding: 70px;
+}
+.contactSectionFirstLeft h1{
+    font-size: 32px;
+}
+.contactSectionFirstLeft h4{
+    font-size: 16px;
+}
+.contactSectionFirstRight{
+    padding: 70px 40px 20px 40px;
+}
+.contactSectionFirstRight img{
+    width: 300px;
+    height: 165px;
+}
+.contactSectionSecond{
+  padding: 20px 10px;
+}
+.contactSectionSecond h2{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.ContactDetailsRow{
+  padding-top: 20px;
+}
+.Icon{
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+}
+.Icon svg {
+  font-size: 40px!important;
+  width: 40px !important;
+  height: 40px ;
+}
+.ContactDetailsRow h6{
+  font-size: 14px;
+}
+.ContactDetailsRow p{
+  font-size: 12px;
+  padding-right: 50px;
+}
+.formField{
+  padding-top: 20px;
+}
+.formLabel{
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.formControl{
+  width: 100%;
+  height: 40px;
+}
+.formControlField{
+  width: 100%;
+}
+.buttonDiv button{
+margin-top: 20px;
+margin-left: 72%;
+width: 80px;
+height: 35px;
+}
+.mapContainer h4{
+  font-size: 18px;
+}
+.mapDiv{
+  height: 300px;
+}
+}
+@media (min-width: 901px) and (max-width: 1050px){
+  .contactSectionFirst{
+    height: 320px;
+}
+.contactSectionFirstLeft{
+    padding: 70px;
+}
+.contactSectionFirstLeft h1{
+    font-size: 34px;
+}
+.contactSectionFirstLeft h4{
+    font-size: 18px;
+}
+.contactSectionFirstRight{
+    padding: 70px 40px 20px 40px;
+}
+.contactSectionFirstRight img{
+    width: 320px;
+    height: 185px;
+}
+.contactSectionSecond{
+  padding: 20px 10px;
+}
+.contactSectionSecond h2{
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+.ContactDetailsRow{
+  padding-top: 20px;
+}
+.Icon{
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+}
+.Icon svg {
+  font-size: 40px!important;
+  width: 40px !important;
+  height: 40px ;
+}
+.ContactDetailsRow h6{
+  font-size: 15px;
+}
+.ContactDetailsRow p{
+  font-size: 13px;
+  padding-right: 50px;
+}
+.formField{
+  padding-top: 20px;
+}
+.formLabel{
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+.formControl{
+  width: 100%;
+  height: 40px;
+}
+.formControlField{
+  width: 100%;
+}
+.buttonDiv button{
+margin-top: 20px;
+margin-left: 72%;
+width: 85px;
+height: 35px;
+}
+.mapContainer h4{
+  font-size: 18px;
+}
+.mapDiv{
+  height: 350px;
+}
+}
+@media (min-width: 1051px) and (max-width: 1199px){
+  .contactSectionFirst{
+    height: 350px;
+}
+.contactSectionFirstLeft{
+    padding: 70px;
+}
+.contactSectionFirstLeft h1{
+    font-size: 38px;
+}
+.contactSectionFirstLeft h4{
+    font-size: 20px;
+}
+.contactSectionFirstRight{
+    padding: 70px 40px 20px 40px;
+}
+.contactSectionFirstRight img{
+    width: 350px;
+    height: 215px;
+}
+.contactSectionSecond{
+  padding: 20px 10px;
+}
+.contactSectionSecond h2{
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.ContactDetailsRow{
+  padding-top: 20px;
+}
+.Icon{
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+}
+.Icon svg {
+  font-size: 40px!important;
+  width: 40px !important;
+  height: 40px ;
+}
+.ContactDetailsRow h6{
+  font-size: 16px;
+}
+.ContactDetailsRow p{
+  font-size: 14px;
+  padding-right: 50px;
+}
+.formField{
+  padding-top: 20px;
+}
+.formLabel{
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+.formControl{
+  width: 100%;
+  height: 40px;
+}
+.formControlField{
+  width: 100%;
+}
+.buttonDiv button{
+margin-top: 20px;
+margin-left: 72%;
+width: 85px;
+height: 35px;
+}
+.mapContainer h4{
+  font-size: 20px;
+}
+.mapDiv{
+  height: 370px;
+}
+}
+@media (min-width: 1200px){
+.contactSectionFirst{
+    width: 100%;
+    height: 400px;
+}
+.contactSectionFirstLeft{
+    padding: 100px;
+}
+.contactSectionFirstLeft h1{
+    font-size: 48px;
+}
+.contactSectionFirstLeft h4{
+    font-size: 26px;
+}
+.contactSectionFirstRight{
+    padding: 100px 40px 30px 40px;
+}
+.contactSectionFirstRight img{
+    width: 400px;
+    height: 265px;
+}
+.contactSectionSecond{
+    padding: 40px 30px;
+}
+.contactSectionSecond h2{
+    font-size: 25px;
+}
+.ContactDetailsRow{
+    padding-top: 20px;
+}
+.Icon{
+    width: 40px;
+    height: 40px; 
+}
+  .ContactDetailsRow h6{
+    font-size: 16px;
+  }
+  .ContactDetailsRow p{
+    font-size: 16px;
+  }
+  .formField{
+    padding-top: 20px;
+  }
+  .formLabel{
+    font-size: 16px;
+  }
+  .formControl{
+    width: 100%;
+    height: 45px;
+  }
+  .formControlField{
+    width: 100%;
+  }
+.buttonDiv button{
+  width: 94px;
+  height: 40px;
+  font-size: 16px;
+}
+.mapContainer{
+  padding: 0 50px;
+}
+.mapContainer h4{
+  font-size: 25px;
+}
+.mapDiv{
+  height: 450px;
+}
+}

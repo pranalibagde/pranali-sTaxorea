@@ -1,0 +1,941 @@
+.FreelancerHubSection{
+    width: 100%;
+    height: auto;
+}
+.FreelanceContainer{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.freelanceFirst{
+    width: 100%;
+    height: 750px;
+}
+.freelancerImg{
+    width: 100%;
+    height: 650px;
+    position: absolute;
+}
+.freelanceFirstLeft{
+   position: relative;
+   padding-top: 150px;
+   padding-left: 120px;
+}
+.freelanceFirstLeft h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+}
+.freelanceFirstLeft h4{
+    font-size: 26px;
+    font-weight: 500;
+    color: #434242;
+    padding: 10px 0px 10px 0px;
+}
+.freelanceFirstLeft button{
+    width: 141px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #16161E;
+}
+.freelanceFirstLeft button:hover{
+    border: 1.5px solid #000000;
+    font-size: 18px;
+}
+.freelanceSecond{
+    background: #ffffff;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.freelanceSecond h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+.freelanceSecond p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+    padding: 10px 250px 40px 250px;
+}
+.freelanceSecond button{
+    width: 180px;
+    height: 52px;
+    border-radius: 6px;
+    background-color: #FF8743;
+    border: none;
+    font-size: 18px;
+    font-family: 500;
+    color: #FFFFFF;
+}
+.freelanceSecond button:hover{
+    background-color: #ffffff;
+    border: 1px solid #FF8743;
+    font-weight: 600;
+    color: #FF8743;
+}
+.freelanceThird{
+    width: 100%;
+    height: auto;
+    background: #F1F1EC;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.freelanceThirdLeft img{
+    width: 500px;
+    height: 540px;
+}
+.freelanceRight{
+    padding: 70px 0px 0px 40px;
+}
+.freelanceRight h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.freelanceRight p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    padding-bottom: 20px;
+}
+.Ellipse11Img{
+    width: 15px;
+    height: 15px;
+    margin-right: -28px;
+    margin-top: 0px;
+}
+.freelanceRightImg{
+    width: 30px;
+    height: 34px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.freelanceRight h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+}
+.freelanceRight p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #535362;
+    text-align: left;
+}
+.freelanceFourthContainer{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    padding-top: 50px;
+    text-align: center;
+}
+.freelanceFourthContainer h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+.freelanceFourthContainer p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+}
+.FreelanceCardFirstRow{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.FreelanceCardSecondRow{
+    display: flex;
+    flex-wrap: wrap;
+}
+.FreelanceCard{
+    width: 373px;
+    height: 316px;
+    margin: 10px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.FreelanceCard-image{
+    text-align: center;
+    align-items: center;
+}
+.FreelanceCard-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    background: #F1F1EC;
+    margin-left: 100px;
+}
+.freeEllipseImg{
+    width: 15px!important;
+    height: 15px!important;
+    margin-right: -20px;
+    margin-top: -3px!important;
+}
+.FreelanceCard-img img{
+    width: 35px;
+    height: 43px;
+    margin-top: 25px;
+}
+.FreelanceCard-number{
+    font-size: 30px;
+    font-weight: 700;
+    color: #666666;
+    margin-top: -30px;
+    margin-left: -5px;
+}
+.FreelanceCard-heading{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+}
+.FreelanceCard-desc{
+    font-size: 16px;
+    font-size: 400;
+    text-align: center;
+    color: #535362;
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .FreelanceContainer{
+        padding: 20px;
+    }
+    .freelanceFirst{
+        width: 100%;
+        height: 370px;
+    }
+    .freelancerImg{
+        width: 100%;
+        height: 350px;
+        position: absolute;
+    }
+    .freelanceFirstLeft{
+       position: relative;
+       padding-top: 80px;
+       padding-left: 10px;
+    }
+    .freelanceFirstLeft h1{
+        font-size: 20px;
+    }
+    .freelanceFirstLeft h4{
+        font-size: 10px;
+        padding: 10px 0px 10px 0px;
+    }
+    .freelanceFirstLeft button{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .freelanceSecond{
+        justify-content: center;
+        text-align: center;
+        padding: 30px 10px;
+    }
+    .freelanceSecond h2{
+        font-size: 30px;
+    }
+    .freelanceSecond p{
+        font-size: 12px;
+        padding: 20px 10px 20px 10px;
+    }
+    .freelanceSecond button{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .freelanceThird{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        justify-content: center;
+        text-align: center;
+    }
+    .freelanceThirdLeft img{
+        width: 300px;
+        height: 360px;
+    }
+    .freelanceRight{
+        padding: 330px 0px 0px 0px;
+    }
+    .freelanceRight h1{
+        font-size: 25px;
+        padding-bottom: 10px;
+        margin-left: -120%;
+    }
+    .freelanceRight p{
+        font-size: 12px;
+        padding: 0px 0px 10px 0px;
+        margin-left: -80%;
+    }
+    .freelanceRightImg{
+        width: 20px;
+        height: 24px;
+        margin-left: -250px;
+        margin-top: 20px;
+    }
+    .freelanceRight h4{
+        font-size: 18px;
+        text-align: start;
+        margin-left: -80%;
+    }
+    .freelanceRight p{
+        font-size: 14px;
+        text-align: start;
+    }
+    .freelanceFourthContainer{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+    .freelanceFourthContainer h3{
+        font-size: 28px;
+    }
+    .freelanceFourthContainer p{
+        font-size: 12px;
+    }
+    .FreelanceCard{
+        width: 250px;
+        height: 150px;
+        margin: 10px;
+        flex: 0 0 80%;
+        margin-left: 10%;
+    }
+    .FreelanceCard-img{
+        width: 60px;
+        height: 60px;
+        margin-left: 37%;
+    }
+    .FreelanceCard-img img{
+        width: 20px;
+        height: 23px;
+        margin-top: 10px;
+    }
+    .FreelanceCard-number{
+        font-size: 16px;
+        margin-top: -15px;
+        margin-left: 0px;
+    }
+    .FreelanceCard-heading{
+        font-size: 14px;
+    }
+    .FreelanceCard-desc{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 480px){
+    .FreelanceContainer{
+        padding: 20px;
+    }
+    .freelanceFirst{
+        width: 100%;
+        height: 370px;
+    }
+    .freelancerImg{
+        width: 100%;
+        height: 350px;
+        position: absolute;
+    }
+    .freelanceFirstLeft{
+       position: relative;
+       padding-top: 80px;
+       padding-left: 10px;
+    }
+    .freelanceFirstLeft h1{
+        font-size: 20px;
+    }
+    .freelanceFirstLeft h4{
+        font-size: 10px;
+        padding: 10px 0px 10px 0px;
+    }
+    .freelanceFirstLeft button{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .freelanceSecond{
+        justify-content: center;
+        text-align: center;
+        padding: 30px 10px;
+    }
+    .freelanceSecond h2{
+        font-size: 30px;
+    }
+    .freelanceSecond p{
+        font-size: 12px;
+        padding: 20px 10px 20px 10px;
+    }
+    .freelanceSecond button{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .freelanceThird{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        justify-content: center;
+        text-align: center;
+    }
+    .freelanceThirdLeft img{
+        width: 360px;
+        height: 400px;
+    }
+    .freelanceRight{
+        padding: 330px 0px 0px 0px;
+    }
+    .freelanceRight h1{
+        font-size: 25px;
+        padding-bottom: 10px;
+        margin-left: -120%;
+    }
+    .freelanceRight p{
+        font-size: 14px;
+        padding: 0px 0px 10px 0px;
+        margin-left: -140px;
+    }
+    .freelanceRightImg{
+        width: 22px;
+        height: 26px;
+        margin-left: -270px;
+        margin-top: 20px;
+    }
+    .freelanceRight h4{
+        font-size: 18px;
+        text-align: start;
+        margin-left: -70%;
+    }
+    .freelanceRight p{
+        font-size: 14px;
+        text-align: start;
+        padding-right: 20px;
+    }
+    .freelanceFourthContainer{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+    .freelanceFourthContainer h3{
+        font-size: 30px;
+    }
+    .freelanceFourthContainer p{
+        font-size: 14px;
+    }
+    .FreelanceCard{
+        width: 300px;
+        height: 180px;
+        margin: 10px;
+        flex: 0 0 80%;
+        margin-left: 10%;
+    }
+    .FreelanceCard-img{
+        width: 70px;
+        height: 70px;
+        margin-left: 37%;
+    }
+    .FreelanceCard-img img{
+        width: 22px;
+        height: 25px;
+        margin-top: 10px;
+    }
+    .FreelanceCard-number{
+        font-size: 16px;
+        margin-top: -15px;
+        margin-left: 0px;
+    }
+    .FreelanceCard-heading{
+        font-size: 16px;
+    }
+    .FreelanceCard-desc{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 600px){
+    .FreelanceContainer{
+        padding: 20px;
+    }
+    .freelanceFirst{
+        width: 100%;
+        height: 400px;
+    }
+    .freelancerImg{
+        width: 100%;
+        height: 380px;
+        position: absolute;
+    }
+    .freelanceFirstLeft{
+       position: relative;
+       padding-top: 80px;
+       padding-left: 30px;
+    }
+    .freelanceFirstLeft h1{
+        font-size: 22px;
+    }
+    .freelanceFirstLeft h4{
+        font-size: 12px;
+        padding: 10px 0px 10px 0px;
+    }
+    .freelanceFirstLeft button{
+        width: 110px;
+        height: 32px;
+        font-size: 14px;
+    }
+    .freelanceSecond{
+        justify-content: center;
+        text-align: center;
+        padding: 30px 30px;
+    }
+    .freelanceSecond h2{
+        font-size: 32px;
+    }
+    .freelanceSecond p{
+        font-size: 14px;
+        padding: 20px 10px 20px 10px;
+    }
+    .freelanceSecond button{
+        width: 120px;
+        height: 32px;
+        font-size: 14px;
+    }
+    .freelanceThird{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        justify-content: center;
+        text-align: center;
+    }
+    .freelanceThirdLeft img{
+        width: 430px;
+        height: 450px;
+    }
+    .freelanceRight{
+        padding: 380px 0px 0px 0px;
+    }
+    .freelanceRight h1{
+        font-size: 28px;
+        padding-bottom: 10px;
+        margin-left: -140%;
+    }
+    .freelanceRight p{
+        font-size: 16px;
+        padding: 0px 0px 10px 0px;
+        margin-left: -180px;
+    }
+    .freelanceRightImg{
+        width: 25px;
+        height: 28px;
+        margin-left: -360px;
+        margin-top: 20px;
+    }
+    .freelanceRight h4{
+        font-size: 18px;
+        text-align: start;
+        margin-left: -180px;
+    }
+    .freelanceRight p{
+        font-size: 14px;
+        text-align: start;
+        padding-right: 20px;
+    }
+    .freelanceFourthContainer{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+    .freelanceFourthContainer h3{
+        font-size: 32px;
+    }
+    .freelanceFourthContainer p{
+        font-size: 16px;
+    }
+    .FreelanceCard{
+        width: 400px;
+        height: 220px;
+        margin: 10px;
+        flex: 0 0 80%;
+        margin-left: 10%;
+    }
+    .FreelanceCard-img{
+        width: 90px;
+        height: 90px;
+        margin-left: 37%;
+    }
+    .FreelanceCard-img img{
+        width: 26px;
+        height: 29px;
+        margin-top: 15px;
+    }
+    .FreelanceCard-number{
+        font-size: 18px;
+        margin-top: -18px;
+        margin-left: 0px;
+    }
+    .FreelanceCard-heading{
+        font-size: 18px;
+    }
+    .FreelanceCard-desc{
+        font-size: 14px;
+    }
+}
+@media (min-width: 601px) and (max-width: 767px){
+    .FreelanceContainer{
+        padding: 20px;
+    }
+    .freelanceFirst{
+        width: 100%;
+        height: 430px;
+    }
+    .freelancerImg{
+        width: 100%;
+        height: 400px;
+        position: absolute;
+    }
+    .freelanceFirstLeft{
+       position: relative;
+       padding-top: 80px;
+       padding-left: 30px;
+    }
+    .freelanceFirstLeft h1{
+        font-size: 24px;
+    }
+    .freelanceFirstLeft h4{
+        font-size: 14px;
+        padding: 10px 0px 10px 0px;
+    }
+    .freelanceFirstLeft button{
+        width: 120px;
+        height: 34px;
+        font-size: 14px;
+    }
+    .freelanceSecond{
+        justify-content: center;
+        text-align: center;
+        padding: 30px 30px;
+    }
+    .freelanceSecond h2{
+        font-size: 34px;
+    }
+    .freelanceSecond p{
+        font-size: 16px;
+        padding: 20px 20px 20px 10px;
+    }
+    .freelanceSecond button{
+        width: 140px;
+        height: 36px;
+        font-size: 15px;
+    }
+    .freelanceThird{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        justify-content: center;
+        text-align: center;
+    }
+    .freelanceThirdLeft img{
+        width: 450px;
+        height: 480px;
+    }
+    .freelanceRight{
+        padding: 420px 0px 0px 0px;
+    }
+    .freelanceRight h1{
+        font-size: 28px;
+        padding-bottom: 10px;
+        margin-left: -200%;
+    }
+    .freelanceRight p{
+        font-size: 16px;
+        padding: 0px 0px 10px 0px;
+        margin-left: -270px;
+    }
+    .freelanceRightImg{
+        width: 26px;
+        height: 30px;
+        margin-left: -550px;
+        margin-top: 20px;
+    }
+    .freelanceRight h4{
+        font-size: 20px;
+        text-align: start;
+        margin-left: -270px;
+    }
+    .freelanceRight p{
+        font-size: 15px;
+        text-align: start;
+        padding-right: 20px;
+    }
+    .freelanceFourthContainer{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+    .freelanceFourthContainer h3{
+        font-size: 32px;
+    }
+    .freelanceFourthContainer p{
+        font-size: 16px;
+    }
+    .FreelanceCard{
+        width: 550px;
+        height: 300px;
+        margin: 10px;
+        flex: 0 0 80%;
+        margin-left: 10%;
+    }
+    .FreelanceCard-img{
+        width: 110px;
+        height: 110px;
+        margin-left: 37%;
+    }
+    .FreelanceCard-img img{
+        width: 35px;
+        height: 38px;
+        margin-top: 25px;
+    }
+    .FreelanceCard-number{
+        font-size: 20px;
+        margin-top: -20px;
+        margin-left: 0px;
+    }
+    .FreelanceCard-heading{
+        font-size: 24px;
+    }
+    .FreelanceCard-desc{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900px){
+    .FreelanceContainer{
+        padding: 20px;
+    }
+    .freelanceFirst{
+        height: 500px;
+    }
+    .freelancerImg{
+        height: 450px;
+    }
+    .freelanceFirstLeft{
+       padding-top: 100px;
+       padding-left: 80px;
+    }
+    .freelanceFirstLeft h1{
+        font-size: 28px;
+    }
+    .freelanceFirstLeft h4{
+        font-size: 14px;
+    }
+    .freelanceFirstLeft button{
+        width: 120px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .freelanceSecond{
+        padding: 50px 0px;
+    }
+    .freelanceSecond h2{
+        font-size: 32px;
+    }
+    .freelanceSecond p{
+        font-size: 18px;
+        padding: 10px 100px 20px 100px;
+    }
+    .freelanceSecond button{
+        width: 130px;
+        height: 34px;
+        font-size: 14px;
+    }
+    .freelanceThird{
+        padding: 50px 0px;
+    }
+    .freelanceThirdLeft img{
+        width: 320px;
+        height: 400px;
+    }
+    .freelanceRight{
+        padding: 30px 10px 0px 0px;
+    }
+    .freelanceRight h1{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .freelanceRight p{
+        font-size: 12px;
+    }
+    .FreelanceCardFirstRow{
+        padding-top: 20px;
+    }
+    .freelanceRightImg{
+        width: 20px;
+        height: 24px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .freelanceRight h4{
+        font-size: 16px;
+    }
+    .freelanceRight p{
+        font-size: 12px;
+    }
+    .freelanceFourthContainer{
+        padding-top: 50px;
+    }
+    .freelanceFourthContainer h3{
+        font-size: 32px;
+    }
+    .freelanceFourthContainer p{
+        font-size: 13px;
+    }
+    .FreelanceCard{
+        width: 250px;
+        height: 220px;
+        margin: 10px;
+        flex: 0 0 30%;
+        margin-left: 0%;
+    }
+    .FreelanceCard-img{
+        width: 70px;
+        height: 70px;
+        margin-left: 60px;
+    }
+    .FreelanceCard-img img{
+        width: 25px;
+        height: 28px;
+        margin-top: 12px;
+    }
+    .FreelanceCard-number{
+        font-size: 18px;
+        margin-top: -20px;
+        margin-left: -10px;
+    }
+    .FreelanceCard-heading{
+        font-size: 14px;
+    }
+    .FreelanceCard-desc{
+        font-size: 12px;
+    }
+}
+@media (min-width: 901px) and (max-width: 1050px){
+    .FreelanceContainer{
+        padding: 20px;
+    }
+    .freelanceFirst{
+        height: 550px;
+    }
+    .freelancerImg{
+        height: 500px;
+    }
+    .freelanceFirstLeft{
+       padding-top: 120px;
+       padding-left: 90px;
+    }
+    .freelanceFirstLeft h1{
+        font-size: 32px;
+    }
+    .freelanceFirstLeft h4{
+        font-size: 16px;
+    }
+    .freelanceFirstLeft button{
+        width: 130px;
+        height: 34px;
+        font-size: 14px;
+    }
+    .freelanceSecond{
+        padding: 50px 0px;
+    }
+    .freelanceSecond h2{
+        font-size: 34px;
+    }
+    .freelanceSecond p{
+        font-size: 18px;
+        padding: 10px 120px 20px 120px;
+    }
+    .freelanceSecond button{
+        width: 140px;
+        height: 34px;
+        font-size: 15px;
+    }
+    .freelanceThird{
+        padding: 70px 0px;
+    }
+    .freelanceThirdLeft img{
+        width: 340px;
+        height: 420px;
+        margin-left: -40px;
+        margin-top: 40px;
+    }
+    .freelanceRight{
+        padding: 30px 0px 0px 0px;
+    }
+    .freelanceRight h1{
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+    .freelanceRight p{
+        font-size: 14px;
+    }
+    .FreelanceCardFirstRow{
+        padding-top: 20px;
+    }
+    .freelanceRightImg{
+        width: 22px;
+        height: 26px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .freelanceRight h4{
+        font-size: 18px;
+    }
+    .freelanceRight p{
+        font-size: 13px;
+    }
+    .freelanceFourthContainer{
+        padding-top: 50px;
+    }
+    .freelanceFourthContainer h3{
+        font-size: 34px;
+    }
+    .freelanceFourthContainer p{
+        font-size: 14px;
+    }
+    .FreelanceCard{
+        width: 390px;
+        height: 220px;
+        margin: 10px;
+        flex: 0 0 30%;
+        margin-left: 0%;
+    }
+    .FreelanceCard-img{
+        width: 70px;
+        height: 70px;
+        margin-left: 60px;
+    }
+    .FreelanceCard-img img{
+        width: 25px;
+        height: 28px;
+        margin-top: 12px;
+    }
+    .FreelanceCard-number{
+        font-size: 18px;
+        margin-top: -20px;
+        margin-left: -10px;
+    }
+    .FreelanceCard-heading{
+        font-size: 14px;
+    }
+    .FreelanceCard-desc{
+        font-size: 12px;
+    }
+}
